@@ -7,60 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26800C28903AA01FDBEB05829808F2CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BD1DC610EE50D6E202539693272B5E /* Foundation.framework */; };
-		339153D3834E7A199D7CE2DAC344F96F /* AutoCompleteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB79869779BCD75091AB0743EADEA3F /* AutoCompleteTableView.swift */; };
+		1336CC9F6514B82DA89A79A048E541EE /* AutocompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2FAD9FA827089C3CD55AC6BEED6D7 /* AutocompleteTextField.swift */; };
+		2C7BB00E2CEFD860129F2BFC3106ECFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138235A307275A411FABCA04AF67F88E /* Foundation.framework */; };
+		3D2F22FEB0C5C8071409EA18A6007B12 /* AutocompleteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B736D93C0824FF4CEADF28C24718F5 /* AutocompleteTableView.swift */; };
 		5575BD880B9AF2E8189D6270454E4FED /* Pods-AutocompleteDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5F165EDC403554BBAF8B838E28FCAF /* Pods-AutocompleteDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DCE64CAA4571F8C2E3EB575521CE7C0 /* AutoCompleteStringDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BD3284760E34FAD97C240DA929D4E4 /* AutoCompleteStringDataSource.swift */; };
-		79E2FCBD44521FAC64BDA51326AB5CCA /* Autocomplete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D39BC211F59291D92B80A8D1B04E2F0 /* Autocomplete-dummy.m */; };
+		5937DD29FAF2D4A1C0498271F20E1246 /* AutocompleteStringDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E387C88B536E67C3AF7A65545F9DA787 /* AutocompleteStringDataSource.swift */; };
+		608B13F5456375EBD221D0C2EBF67E06 /* Autocomplete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B7359AD2B5B49E2A3CC98137B262F1 /* Autocomplete-dummy.m */; };
 		971D0CD3D00FF7F334AC2E2365961300 /* Pods-AutocompleteDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C853A789BE1D0736AE2AB8846C0D15 /* Pods-AutocompleteDemo-dummy.m */; };
-		C30C61ACBB9306914D2B2294F5A5D134 /* Autocomplete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C75B62880BF85095957F759877AB1ABD /* Autocomplete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F30671ECF046DB74F6F2822E4276A78C /* AutoCompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F099A727F4F818F77955A8D133BCE61 /* AutoCompleteTextField.swift */; };
-		FCDFD0531E62EE1F3C7AEC63D60FCEF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BD1DC610EE50D6E202539693272B5E /* Foundation.framework */; };
+		D8B548BC1EEC20400DD15E76BBAE5759 /* Autocomplete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4008F9165F9EE495E475ADDC468B3D /* Autocomplete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCDFD0531E62EE1F3C7AEC63D60FCEF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138235A307275A411FABCA04AF67F88E /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E3225033FC6A55CE6099520D030FE8CF /* PBXContainerItemProxy */ = {
+		5BF45036CE33FFD4C484D65678BF3A78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 725F28A88C13C31A47C2A13D09936931;
+			remoteGlobalIDString = 8C6503D30126BBCD1044EDCCCB3E1D4E;
 			remoteInfo = Autocomplete;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D4008F9165F9EE495E475ADDC468B3D /* Autocomplete-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Autocomplete-umbrella.h"; sourceTree = "<group>"; };
+		138235A307275A411FABCA04AF67F88E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		16B7359AD2B5B49E2A3CC98137B262F1 /* Autocomplete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Autocomplete-dummy.m"; sourceTree = "<group>"; };
 		1897E854DBAAC31671F63F551CD18EE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B07D700D697EB9D37AEA7F1C65719B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B2FAD9FA827089C3CD55AC6BEED6D7 /* AutocompleteTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutocompleteTextField.swift; sourceTree = "<group>"; };
 		25180D77A14F4C5734FD145BE0B85E72 /* Pods-AutocompleteDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutocompleteDemo-frameworks.sh"; sourceTree = "<group>"; };
-		28BD3284760E34FAD97C240DA929D4E4 /* AutoCompleteStringDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoCompleteStringDataSource.swift; sourceTree = "<group>"; };
-		3D39BC211F59291D92B80A8D1B04E2F0 /* Autocomplete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Autocomplete-dummy.m"; sourceTree = "<group>"; };
+		3EEA54EC69B4C1C9E88CCB326AF73EF7 /* Autocomplete.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Autocomplete.xcconfig; sourceTree = "<group>"; };
+		486AE426B7B91CC6CF854DB5B4301574 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48CB14AAF32647AD4AEC7FEAFB7204D2 /* Pods-AutocompleteDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutocompleteDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5F099A727F4F818F77955A8D133BCE61 /* AutoCompleteTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextField.swift; sourceTree = "<group>"; };
+		5EF44D47D68775BF9DB364F0D9824F83 /* Autocomplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Autocomplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8C73C9047A0E5F71CA4BF5A8EBEE61 /* Pods_AutocompleteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutocompleteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EB79869779BCD75091AB0743EADEA3F /* AutoCompleteTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoCompleteTableView.swift; sourceTree = "<group>"; };
-		7633A052FF7D5CC9B69AA3F7E0D22824 /* Autocomplete-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Autocomplete-prefix.pch"; sourceTree = "<group>"; };
-		79BD1DC610EE50D6E202539693272B5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		844A2162B8295973A16E88B1DF81DEAF /* Autocomplete-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Autocomplete-Private.xcconfig"; sourceTree = "<group>"; };
 		8D5F165EDC403554BBAF8B838E28FCAF /* Pods-AutocompleteDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutocompleteDemo-umbrella.h"; sourceTree = "<group>"; };
 		99C853A789BE1D0736AE2AB8846C0D15 /* Pods-AutocompleteDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutocompleteDemo-dummy.m"; sourceTree = "<group>"; };
 		9DC44A96ED641AE1772A68000A85FFB3 /* Pods-AutocompleteDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutocompleteDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		A29B33C8481C21418499A402A703537B /* Pods-AutocompleteDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AutocompleteDemo.modulemap"; sourceTree = "<group>"; };
-		A42B512E8073F46E647003E39B72EE75 /* Autocomplete.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Autocomplete.modulemap; sourceTree = "<group>"; };
 		A73FF3EC4FDFC00AA0A1824FEBE8AF08 /* Pods-AutocompleteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutocompleteDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B6478ADE58E732AD556D44B0550CF89F /* Autocomplete.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Autocomplete.modulemap; sourceTree = "<group>"; };
+		B6B736D93C0824FF4CEADF28C24718F5 /* AutocompleteTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutocompleteTableView.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C75B62880BF85095957F759877AB1ABD /* Autocomplete-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Autocomplete-umbrella.h"; sourceTree = "<group>"; };
-		CE64FE5652DD523511F1B5CEF452B9D8 /* Autocomplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Autocomplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F834C6158294A75230144A8971C24E91 /* Autocomplete.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Autocomplete.xcconfig; sourceTree = "<group>"; };
+		BDE865C334B0EAC31DCEF799ABF7EA30 /* Autocomplete-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Autocomplete-prefix.pch"; sourceTree = "<group>"; };
+		C7CF1BAB3C5F949E53413F99C921E738 /* Autocomplete-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Autocomplete-Private.xcconfig"; sourceTree = "<group>"; };
+		E387C88B536E67C3AF7A65545F9DA787 /* AutocompleteStringDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutocompleteStringDataSource.swift; sourceTree = "<group>"; };
 		F86A5CAF47A6CD3920D809373980D2BF /* Pods-AutocompleteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutocompleteDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F98119BDAF26D48E9C20430A748FE77A /* Pods-AutocompleteDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutocompleteDemo-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9FA5CBFF34C4D31F9EE325B350332E18 /* Frameworks */ = {
+		49F3240D77AA44EB8B714EC8E5013472 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26800C28903AA01FDBEB05829808F2CC /* Foundation.framework in Frameworks */,
+				2C7BB00E2CEFD860129F2BFC3106ECFD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,25 +75,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F0BED0FDF0A370E2694897D5F7EBE59 /* Support Files */ = {
+		4C752A1ACA36FE9FD9DDE67C03B31F79 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				A42B512E8073F46E647003E39B72EE75 /* Autocomplete.modulemap */,
-				F834C6158294A75230144A8971C24E91 /* Autocomplete.xcconfig */,
-				844A2162B8295973A16E88B1DF81DEAF /* Autocomplete-Private.xcconfig */,
-				3D39BC211F59291D92B80A8D1B04E2F0 /* Autocomplete-dummy.m */,
-				7633A052FF7D5CC9B69AA3F7E0D22824 /* Autocomplete-prefix.pch */,
-				C75B62880BF85095957F759877AB1ABD /* Autocomplete-umbrella.h */,
-				1B07D700D697EB9D37AEA7F1C65719B2 /* Info.plist */,
+				E387C88B536E67C3AF7A65545F9DA787 /* AutocompleteStringDataSource.swift */,
+				B6B736D93C0824FF4CEADF28C24718F5 /* AutocompleteTableView.swift */,
+				18B2FAD9FA827089C3CD55AC6BEED6D7 /* AutocompleteTextField.swift */,
 			);
-			name = "Support Files";
-			path = "AutocompleteDemo/Pods/Target Support Files/Autocomplete";
+			path = src;
 			sourceTree = "<group>";
 		};
 		527FA7F78EA020DAD171D333D0448789 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A2088E870CECE1E4265D12302C44E4BD /* Autocomplete */,
+				BF658F1D3A1D557F035836A28B6CB98D /* Autocomplete */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -101,9 +96,24 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				79BD1DC610EE50D6E202539693272B5E /* Foundation.framework */,
+				138235A307275A411FABCA04AF67F88E /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		568DF407149EFCE0C8BF312582FE541B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6478ADE58E732AD556D44B0550CF89F /* Autocomplete.modulemap */,
+				3EEA54EC69B4C1C9E88CCB326AF73EF7 /* Autocomplete.xcconfig */,
+				C7CF1BAB3C5F949E53413F99C921E738 /* Autocomplete-Private.xcconfig */,
+				16B7359AD2B5B49E2A3CC98137B262F1 /* Autocomplete-dummy.m */,
+				BDE865C334B0EAC31DCEF799ABF7EA30 /* Autocomplete-prefix.pch */,
+				0D4008F9165F9EE495E475ADDC468B3D /* Autocomplete-umbrella.h */,
+				486AE426B7B91CC6CF854DB5B4301574 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "demo/Pods/Target Support Files/Autocomplete";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -117,32 +127,22 @@
 			);
 			sourceTree = "<group>";
 		};
-		A2088E870CECE1E4265D12302C44E4BD /* Autocomplete */ = {
-			isa = PBXGroup;
-			children = (
-				1F0BED0FDF0A370E2694897D5F7EBE59 /* Support Files */,
-				AFDADC353F327AE58E04F87494C997C4 /* src */,
-			);
-			name = Autocomplete;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AFDADC353F327AE58E04F87494C997C4 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				28BD3284760E34FAD97C240DA929D4E4 /* AutoCompleteStringDataSource.swift */,
-				6EB79869779BCD75091AB0743EADEA3F /* AutoCompleteTableView.swift */,
-				5F099A727F4F818F77955A8D133BCE61 /* AutoCompleteTextField.swift */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF658F1D3A1D557F035836A28B6CB98D /* Autocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				568DF407149EFCE0C8BF312582FE541B /* Support Files */,
+				4C752A1ACA36FE9FD9DDE67C03B31F79 /* src */,
+			);
+			name = Autocomplete;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C3EAA4AD64831166A5011F7E83A3B71C /* Pods-AutocompleteDemo */ = {
@@ -166,7 +166,7 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE64FE5652DD523511F1B5CEF452B9D8 /* Autocomplete.framework */,
+				5EF44D47D68775BF9DB364F0D9824F83 /* Autocomplete.framework */,
 				5F8C73C9047A0E5F71CA4BF5A8EBEE61 /* Pods_AutocompleteDemo.framework */,
 			);
 			name = Products;
@@ -191,24 +191,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECD6908C34DC1EE44AA4527AE13DF0AE /* Headers */ = {
+		B2E47C46EC93FB6AE4EC3D4DC87ACC03 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C30C61ACBB9306914D2B2294F5A5D134 /* Autocomplete-umbrella.h in Headers */,
+				D8B548BC1EEC20400DD15E76BBAE5759 /* Autocomplete-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		725F28A88C13C31A47C2A13D09936931 /* Autocomplete */ = {
+		8C6503D30126BBCD1044EDCCCB3E1D4E /* Autocomplete */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FFEB76D8E1F37E4175D9DF9274287C2 /* Build configuration list for PBXNativeTarget "Autocomplete" */;
+			buildConfigurationList = 08C7B2A4DE1C84A4A8A7CB7C1EB13C7D /* Build configuration list for PBXNativeTarget "Autocomplete" */;
 			buildPhases = (
-				3BAA83B86A9BF4ACD24F46A57B80B54E /* Sources */,
-				9FA5CBFF34C4D31F9EE325B350332E18 /* Frameworks */,
-				ECD6908C34DC1EE44AA4527AE13DF0AE /* Headers */,
+				B565632F8BE43BB87AEA0A1F64A5275B /* Sources */,
+				49F3240D77AA44EB8B714EC8E5013472 /* Frameworks */,
+				B2E47C46EC93FB6AE4EC3D4DC87ACC03 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -216,7 +216,7 @@
 			);
 			name = Autocomplete;
 			productName = Autocomplete;
-			productReference = CE64FE5652DD523511F1B5CEF452B9D8 /* Autocomplete.framework */;
+			productReference = 5EF44D47D68775BF9DB364F0D9824F83 /* Autocomplete.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C971080F2B939A8C6E1FCE36FD269B13 /* Pods-AutocompleteDemo */ = {
@@ -230,7 +230,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FCCC73F573BF3291056C3F54E8B2428F /* PBXTargetDependency */,
+				B9F86243CAEA21693F6EBCF92139A485 /* PBXTargetDependency */,
 			);
 			name = "Pods-AutocompleteDemo";
 			productName = "Pods-AutocompleteDemo";
@@ -258,7 +258,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				725F28A88C13C31A47C2A13D09936931 /* Autocomplete */,
+				8C6503D30126BBCD1044EDCCCB3E1D4E /* Autocomplete */,
 				C971080F2B939A8C6E1FCE36FD269B13 /* Pods-AutocompleteDemo */,
 			);
 		};
@@ -273,25 +273,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BAA83B86A9BF4ACD24F46A57B80B54E /* Sources */ = {
+		B565632F8BE43BB87AEA0A1F64A5275B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DCE64CAA4571F8C2E3EB575521CE7C0 /* AutoCompleteStringDataSource.swift in Sources */,
-				339153D3834E7A199D7CE2DAC344F96F /* AutoCompleteTableView.swift in Sources */,
-				F30671ECF046DB74F6F2822E4276A78C /* AutoCompleteTextField.swift in Sources */,
-				79E2FCBD44521FAC64BDA51326AB5CCA /* Autocomplete-dummy.m in Sources */,
+				608B13F5456375EBD221D0C2EBF67E06 /* Autocomplete-dummy.m in Sources */,
+				5937DD29FAF2D4A1C0498271F20E1246 /* AutocompleteStringDataSource.swift in Sources */,
+				3D2F22FEB0C5C8071409EA18A6007B12 /* AutocompleteTableView.swift in Sources */,
+				1336CC9F6514B82DA89A79A048E541EE /* AutocompleteTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FCCC73F573BF3291056C3F54E8B2428F /* PBXTargetDependency */ = {
+		B9F86243CAEA21693F6EBCF92139A485 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Autocomplete;
-			target = 725F28A88C13C31A47C2A13D09936931 /* Autocomplete */;
-			targetProxy = E3225033FC6A55CE6099520D030FE8CF /* PBXContainerItemProxy */;
+			target = 8C6503D30126BBCD1044EDCCCB3E1D4E /* Autocomplete */;
+			targetProxy = 5BF45036CE33FFD4C484D65678BF3A78 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -359,9 +359,36 @@
 			};
 			name = Release;
 		};
-		7D6E6F23A2D34AFE8A28686DE797A488 /* Debug */ = {
+		76C3ABAD5C2D7130A0F7D3492D1307BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 844A2162B8295973A16E88B1DF81DEAF /* Autocomplete-Private.xcconfig */;
+			baseConfigurationReference = C7CF1BAB3C5F949E53413F99C921E738 /* Autocomplete-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Autocomplete/Autocomplete-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Autocomplete/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Autocomplete/Autocomplete.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Autocomplete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E89554BFCB58489D6B2FD09A61DD2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CF1BAB3C5F949E53413F99C921E738 /* Autocomplete-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1.0.0;
@@ -426,33 +453,6 @@
 			};
 			name = Debug;
 		};
-		D6E91973072F700EB7281067A40B1AE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 844A2162B8295973A16E88B1DF81DEAF /* Autocomplete-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.0.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Autocomplete/Autocomplete-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Autocomplete/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Autocomplete/Autocomplete.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Autocomplete;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E7C7B89FE6AB2CA3992978B91D1D43CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F86A5CAF47A6CD3920D809373980D2BF /* Pods-AutocompleteDemo.debug.xcconfig */;
@@ -486,6 +486,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		08C7B2A4DE1C84A4A8A7CB7C1EB13C7D /* Build configuration list for PBXNativeTarget "Autocomplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E89554BFCB58489D6B2FD09A61DD2D4 /* Debug */,
+				76C3ABAD5C2D7130A0F7D3492D1307BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -500,15 +509,6 @@
 			buildConfigurations = (
 				E7C7B89FE6AB2CA3992978B91D1D43CF /* Debug */,
 				24CA7BD889B7C95C37F6FBF5594FB342 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FFEB76D8E1F37E4175D9DF9274287C2 /* Build configuration list for PBXNativeTarget "Autocomplete" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D6E6F23A2D34AFE8A28686DE797A488 /* Debug */,
-				D6E91973072F700EB7281067A40B1AE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

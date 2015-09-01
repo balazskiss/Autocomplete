@@ -14,7 +14,7 @@
 		<string>github.com:balazskiss/AutoCompleteTextField.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AutocompleteDemo/AutocompleteDemo.xcworkspace</string>
+	<string>demo/AutocompleteDemo.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>467D3C10B8B564C2979BDE25F09C8723557A24FD</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>467D3C10B8B564C2979BDE25F09C8723557A24FD</string>
 			<key>IDESourceControlWCCName</key>
-			<string>AutoCompleteTextField</string>
+			<string>Autocomplete</string>
 		</dict>
 	</array>
 </dict>

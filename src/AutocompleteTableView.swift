@@ -1,6 +1,6 @@
 //
-//  AutoCompleteTableView.swift
-//  AutoCompleteTextField
+//  AutocompleteTableView.swift
+//  Autocomplete
 //
 //  Created by Balázs Kiss on 11/08/15.
 //  Copyright (c) 2015 Balázs Kiss. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class AutoCompleteTableView: UITableView, UITableViewDataSource, AutoCompleteResultsView, UITableViewDelegate {
+public class AutocompleteTableView: UITableView, UITableViewDataSource, AutocompleteResultsView, UITableViewDelegate {
     
     public var items:[String] = [] {
         didSet {
@@ -16,7 +16,7 @@ public class AutoCompleteTableView: UITableView, UITableViewDataSource, AutoComp
         }
     }
     public var keyword:String = ""
-    public var selectionDelegate:AutoCompleteResultsViewDelegate?
+    public var selectionDelegate:AutocompleteResultsViewDelegate?
     public var view: UIView {
         get {
             return self

@@ -11,13 +11,13 @@ import Autocomplete
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var textField: AutoCompleteTextField!
+    @IBOutlet weak var textField: AutocompleteTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        textField.dataSource = AutoCompleteStringDataSource(items: ["Afghanistan",
+        textField.dataSource = AutocompleteStringDataSource(items: ["Afghanistan",
             "Albania",
             "Algeria",
             "Andorra",

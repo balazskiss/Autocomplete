@@ -1,6 +1,6 @@
 //
-//  AutoCompleteStringDataSource.swift
-//  AutoCompleteTextField
+//  AutocompleteStringDataSource.swift
+//  Autocomplete
 //
 //  Created by Balázs Kiss on 11/08/15.
 //  Copyright (c) 2015 Balázs Kiss. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class AutoCompleteStringDataSource: NSObject, AutoCompleteDataSource {
+public class AutocompleteStringDataSource: NSObject, AutocompleteDataSource {
     
     var items :[String] = []
     

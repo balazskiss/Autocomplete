@@ -1,6 +1,6 @@
 //
-//  AutoCompleteTextField.swift
-//  Fantoo
+//  AutocompleteTextField.swift
+//  Autocomplete
 //
 //  Created by Balázs Kiss on 05/08/15.
 //  Copyright (c) 2015 Balázs Kiss. All rights reserved.
@@ -8,24 +8,24 @@
 
 import UIKit
 
-public protocol AutoCompleteDataSource {
+public protocol AutocompleteDataSource {
     func itemsForText(text:String) -> [String]
 }
 
-public protocol AutoCompleteResultsViewDelegate {
-    func resultsView(resultsView:AutoCompleteResultsView, didSelectItem item:String)
+public protocol AutocompleteResultsViewDelegate {
+    func resultsView(resultsView:AutocompleteResultsView, didSelectItem item:String)
 }
 
-public protocol AutoCompleteResultsView {
+public protocol AutocompleteResultsView {
     var items : [String] {get set}
     var keyword : String {get set}
     var view : UIView {get}
-    var selectionDelegate : AutoCompleteResultsViewDelegate? {get set}
+    var selectionDelegate : AutocompleteResultsViewDelegate? {get set}
 }
 
-public class AutoCompleteTextField: UITextField, UITextFieldDelegate, AutoCompleteResultsViewDelegate {
+public class AutocompleteTextField: UITextField, UITextFieldDelegate, AutocompleteResultsViewDelegate {
 
-    public var resultsView : AutoCompleteResultsView
+    public var resultsView : AutocompleteResultsView
     public var tableViewFrame: CGRect? {
         didSet {
             if let tableViewFrame = tableViewFrame {
@@ -33,10 +33,10 @@ public class AutoCompleteTextField: UITextField, UITextFieldDelegate, AutoComple
             }
         }
     }
-    public var dataSource: AutoCompleteDataSource = AutoCompleteStringDataSource()
+    public var dataSource: AutocompleteDataSource = AutocompleteStringDataSource()
     
     public required init(coder aDecoder: NSCoder) {
-        resultsView = AutoCompleteTableView(frame: CGRectMake(0, 100, 320, 200), style: UITableViewStyle.Plain)
+        resultsView = AutocompleteTableView(frame: CGRectMake(0, 100, 320, 200), style: UITableViewStyle.Plain)
         super.init(coder: aDecoder)
         
         addTarget(self, action: "valueChange:", forControlEvents: UIControlEvents.EditingChanged)
@@ -82,7 +82,7 @@ public class AutoCompleteTextField: UITextField, UITextFieldDelegate, AutoComple
         return true
     }
     
-    public func resultsView(resultsView:AutoCompleteResultsView, didSelectItem item:String) {
+    public func resultsView(resultsView:AutocompleteResultsView, didSelectItem item:String) {
         self.text = item
         resultsView.view.hidden = true
     }
