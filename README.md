@@ -4,4 +4,4 @@ TextField with auto completion written in Swift
 
 
 
-![Autocomplete for iOS with Swift](https://raw.githubusercontent.com/balazskiss/Autocomplete/master/screenshots/screenshot1.png)
+![Autocomplete for iOS with Swift](screenshots/screenshot1.png)
