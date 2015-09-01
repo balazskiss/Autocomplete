@@ -1,0 +1,14 @@
+PODS:
+  - Autocomplete (1.0.0)
+
+DEPENDENCIES:
+  - Autocomplete (from `../`)
+
+EXTERNAL SOURCES:
+  Autocomplete:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Autocomplete: 527af4c8900a5bead6ad1e9e272008fea8ed0590
+
+COCOAPODS: 0.38.2

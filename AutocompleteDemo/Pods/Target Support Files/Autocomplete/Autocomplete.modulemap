@@ -1,0 +1,6 @@
+framework module Autocomplete {
+  umbrella header "Autocomplete-umbrella.h"
+
+  export *
+  module * { export * }
+}

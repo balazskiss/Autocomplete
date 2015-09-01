@@ -1,0 +1,23 @@
+{
+  "name": "Autocomplete",
+  "version": "1.0.0",
+  "summary": "Autocompletion for iOS Swift projects",
+  "description": "The Autocomplete module provide suggestions while you type into a UITextField.",
+  "homepage": "http://balazskiss.name",
+  "documentation_url": "http://balazskiss.name",
+  "license": {
+    "type": "BSD"
+  },
+  "authors": {
+    "Balazs Kiss": "dev@balazskiss.name"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/balazskiss/autocomplete.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "src/*"
+}
