@@ -25,7 +25,7 @@ public class AutocompleteStringDataSource: NSObject, AutocompleteDataSource {
         return filterItems(text)
     }
    
-    func filterItems(text:String) -> [String] {
+    private func filterItems(text:String) -> [String] {
         var filteredItems : [String] = []
         for item in items {
             if item.lowercaseString.hasPrefix(text.lowercaseString) {
